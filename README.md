@@ -6,8 +6,8 @@ recognition_scalable
 
 - Pull repo:
 ```
-git clone <repo>
-cd <repo folder>
+git clone git@github.com:nekrasovka-library/recognition.git
+cd recognition
 ```
 - Build docker image:
 ```
