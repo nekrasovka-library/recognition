@@ -1,0 +1,12 @@
+jupyterlab
+matplotlib
+scipy
+tqdm
+opencv-python
+argparse
+numpy
+scikit-image
+joblib
+termcolor
+pymongo
+flask
