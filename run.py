@@ -68,6 +68,7 @@ def main():
 -ip true
 """
     args = parse_argument()
+    os.makedirs(args.out_dir, exist_ok=True)
 
     docker_in_cmd = f"""cd /workdir; python run_inner.py -i /ToRecognize -o /Recognized -j {args.n_jobs} -sb {args.shared_bottom} -ip {args.image_preprocessing}"""
     if args.last_idx is not None:
