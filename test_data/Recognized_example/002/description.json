@@ -1,0 +1,1 @@
+{"version": "v5.0.0", "ocrType": "Tsseract4LSTM", "saveImage": false, "correctionCNN": false, "correctionBayes": true, "imageCutter": true, "segmentationLine": true, "segmentationBlock": true, "BlockLinking": true}
